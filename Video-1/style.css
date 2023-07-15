@@ -68,9 +68,50 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .img-banner {
     padding: 50px 200px;
     background-color: lightgray 0px -94.291px / 100% 137.109% no-repeat;
+}
+
+.main-fichers {
+    padding: 50px 200px;
+}
+
+.main-fichers {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.chilled-fichers-2 h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.chilled-fichers-2 p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.chilled-fichers-2 button {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-img-fichers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
