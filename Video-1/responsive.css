@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    .main-header {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .chilled-header ul {
+        margin-top: 20px;
+    }
+    .chilled-banner {
+        width: 500px;
+    }
+    .img-banner {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .main-header {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .chilled-header ul {
+        margin-top: 20px;
+    }
+    .img-banner {
+        padding: 50px;
+    }
+}
