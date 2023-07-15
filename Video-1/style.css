@@ -10,8 +10,9 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding: 50px 200px;
     align-items: center;
+    background: rgba(255, 144, 14, 0.10)
 }
 
 .chilled-header h1 {
@@ -22,7 +23,6 @@ body {
     font-style: normal;
     font-weight: 800;
     display: block;
-    margin-left: 100px;
 }
 
 .chilled-header ul {}
@@ -35,4 +35,44 @@ body {
     font-weight: 500;
     display: inline-block;
     padding: 0px 30px;
+}
+
+.chilled-banner {
+    width: 862px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text-banner {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.chilled-banner h1 {
+    color: #131313;
+    font-size: 67px;
+    font-weight: 700;
+}
+
+.chilled-banner p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.chilled-banner button {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.img-banner {
+    padding: 50px 200px;
+    background-color: lightgray 0px -94.291px / 100% 137.109% no-repeat;
 }
